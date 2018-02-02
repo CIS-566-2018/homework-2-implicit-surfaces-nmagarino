@@ -44,3 +44,17 @@ We would suggest editing your project with Visual Studio Code https://code.visua
 
 ## Resources
 - [Lecture slides](https://docs.google.com/presentation/d/1W5KWvkT1tscRG8x5tSfKXBRx9EGTZ-jVsOhIlfhJQLQ/edit?usp=sharing) (see the last two slides)
+
+## Read-Me --------------------------------------->
+Nicholas Magarino
+PennKey: nmaga
+
+Demo Link:  https://nmagarino.github.io/homework-2-implicit-surfaces-nmagarino/
+
+I used domain repetition to create the series of dancing toy robots, in the x and y directions.  I implemented a Toon shader for the coloring of the robot itself.  For the animated parts, I primarily used a modified sine function with a uniform time variable passed in, and I also used constant linear time to move other parts.  I used a simple gradient from green to blue based on the screen dimensions to color in the background.
+I modelled the toy robot himself with a collection of cylinders, spheres, and rectangles, unioned and subtracted together in various ways.  
+I mostly cited Jamie Wong's website and ShaderToy sites for help with ray marching: http://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/
+I also referenced https://en.wikibooks.org/wiki/GLSL_Programming/Unity/Toon_Shading for the Toon Shader implementation.
+Of course, I used tons of code from IQ's site, mainly at http://iquilezles.org/www/articles/distfunctions/distfunctions.htm
+
+
