@@ -51,7 +51,7 @@ PennKey: nmaga
 
 Demo Link:  https://nmagarino.github.io/homework-2-implicit-surfaces-nmagarino/
 
-![alt text](homework-2-implicit-surfaces-nmagarino/robotShot.PNG)
+![Alt text](homework-2-implicit-surfaces-nmagarino/robotShot.PNG)
 
 I used domain repetition to create the series of dancing toy robots, in the x and y directions.  I implemented a Toon shader for the coloring of the robot itself.  For the animated parts, I primarily used a modified sine function with a uniform time variable passed in, and I also used constant linear time to move other parts.  I used a simple gradient from green to blue based on the screen dimensions to color in the background.
 I modelled the toy robot himself with a collection of cylinders, spheres, and rectangles, unioned and subtracted together in various ways.  
